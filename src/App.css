@@ -72,7 +72,9 @@ a:hover {
 #nest-messages{
   margin-top:6%;
 }
-
+:where(.css-dev-only-do-not-override-3mqfnx).ant-modal .ant-modal-footer {
+  margin-top:45px;
+}/*
 .ant-form-item{
-  height:35px;
-}
+  height:50px;
+}*/

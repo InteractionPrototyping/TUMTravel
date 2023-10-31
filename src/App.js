@@ -970,7 +970,7 @@ function App() {
               onFinish={handleOk}
               validateMessages={validateMessages}
           >
-            <Form.Item label="Beginn der Reise">
+            <Form.Item label="Beginn der Reise" style={{marginBottom:'0'}}>
                 <Form.Item
                   name={"start_travel_date"}
                   rules={[{ required: true }]}
@@ -986,7 +986,7 @@ function App() {
               <TimePicker placeholder="Input Time" format="HH:mm"/>
               </Form.Item>
             </Form.Item>
-            <Form.Item label="Beginn des Dienstgeschäfts">
+            <Form.Item label="Beginn des Dienstgeschäfts" style={{marginBottom:'0'}}>
               <Form.Item
                   name={"start_work_date"}
                   rules={[{ required: true }]}
@@ -1002,7 +1002,7 @@ function App() {
                 <TimePicker placeholder="Input Time" format="HH:mm"/>
               </Form.Item>
             </Form.Item>
-            <Form.Item label="Ende des Dienstgeschäfts">
+            <Form.Item label="Ende des Dienstgeschäfts" style={{marginBottom:'0'}}>
               <Form.Item
                   name={"end_work_date"}
                   rules={[{ required: true }]}
@@ -1018,18 +1018,18 @@ function App() {
                 <TimePicker placeholder="Input Time" format="HH:mm"/>
               </Form.Item>
             </Form.Item>
-            <Form.Item label="Ende der Reise">
+            <Form.Item label="Ende der Reise" style={{marginBottom:'0'}}>
               <Form.Item
                   name={"end_travel_date"}
                   rules={[{ required: true }]}
-                  style={{ display: 'inline-block', width: 'calc(50% - 6x)' }}
+                  style={{ display: 'inline-block', width: 'calc(45% - 6x)' }}
               >
                 <DatePicker placeholder="Input Date" />
               </Form.Item>
               <Form.Item
                   name={"end_travel_time"}
                   rules={[{ required: true }]}
-                  style={{ display: 'inline-block', width: 'calc(50% - 6px)', margin: '0 6px' }}
+                  style={{ display: 'inline-block', width: 'calc(45% - 6px)', margin: '0 6px' }}
               >
                 <TimePicker placeholder="Input Time" format="HH:mm"/>
               </Form.Item>
@@ -1058,18 +1058,18 @@ function App() {
             <Form.Item name={"fond"} label="Fond">
               <Input />
             </Form.Item>
-            <Form.Item label="Privater Urlaub" style={{ height: '100px' }}>
+            <Form.Item label="Privater Urlaub">
               <Form.Item
                   name={"private_vacation_from"}
                   rules={[{ required: true }]}
-                  style={{ display: 'inline-block', width: 'calc(50% - 6x)' }}
+                  style={{ display: 'inline-block', width: 'calc(45% - 6x)' }}
               >
                 <DatePicker placeholder="Von" />
               </Form.Item>
               <Form.Item
                   name={"private_vacation_to"}
                   rules={[{ required: true }]}
-                  style={{ display: 'inline-block', width: 'calc(50% - 6px)', margin: '0 6px' }}
+                  style={{ display: 'inline-block', width: 'calc(45% - 6px)', margin: '0 6px' }}
               >
                 <DatePicker placeholder="Bis"/>
               </Form.Item>
