@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TUMTravel/static/css/main.9d17959b.css",
+    "main.js": "/TUMTravel/static/js/main.7c1a2d6e.js",
+    "static/js/787.30b47ef5.chunk.js": "/TUMTravel/static/js/787.30b47ef5.chunk.js",
+    "static/media/Tum_logo.png": "/TUMTravel/static/media/Tum_logo.52019d49664274d413b0.png",
+    "index.html": "/TUMTravel/index.html",
+    "main.9d17959b.css.map": "/TUMTravel/static/css/main.9d17959b.css.map",
+    "main.7c1a2d6e.js.map": "/TUMTravel/static/js/main.7c1a2d6e.js.map",
+    "787.30b47ef5.chunk.js.map": "/TUMTravel/static/js/787.30b47ef5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d17959b.css",
+    "static/js/main.7c1a2d6e.js"
+  ]
+}
